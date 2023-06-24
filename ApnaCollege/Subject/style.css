@@ -1,0 +1,23 @@
+p{
+    text-align: center;
+}
+body{
+    /*background-image: linear-gradient(90deg,#fdcd3b 60%,#ffed4b 60%);*/
+    background-image: linear-gradient(
+        to bottom,
+      #fdcd3b 50%,
+      #ffed4b 50%
+
+    );
+    height: 100vh;
+}
+
+
+fieldset{
+    background-color: white;
+    width:500px;
+}
+
+.btn-large{
+    background-color: orange
+}

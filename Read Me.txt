@@ -1,0 +1,41 @@
+----------Backend Setup----------
+
+----For Mysql Clint(mysql server)----
+
+step 1:- Copy the apna.sql file.
+step 2:- paste it inside the bin folder of mysql server path = C:\Program Files\MySQL\MySQL Server 8.0\bin
+step 3:- open mysql Command line Clint
+step 4:- create database named apna = create database apna;
+step 5:- use apna Database = use apna;
+step 6:- import apna.sql = source apna.sql;
+
+----For Xampp Mysql(phpmyadmin)----
+step 1:- Open localhost/phpmyadmin
+step 2:- Create New Database Name apna
+step 3:- Click on Import button
+Step 4:- Choose apna.sql and press Go
+
+----------Frontend Setup----------
+step 1:- install xampp 
+step 2:- start Apache server
+step 3:- copy the ApnaCollege folder
+step 4:- paste in the htdocs folder of Xampp folder path =  C:\xampp\htdocs
+step 5:- now open connection.php path = C:\xampp\htdocs\ApnaCollege\Connect\connection.php
+step 6:- Enter your Mysql username and Password in the connection.php file and save it;
+step 7:- Open your web browser and type this url = http://localhost/ApnaCollege
+
+----For Management Portal----
+You can use register option for new uname and password
+default 
+username = admin
+password = admin
+
+
+
+
+Project Submission By:-
+Shubham Sharma (21CS119D)
+Rakshita Jaju (20CS83)
+Sumant Preet Singh (20CS98)
+Upmanyu Ghiya (20CS101)
+Pranjal Agarwal (20CS73)

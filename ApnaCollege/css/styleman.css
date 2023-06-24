@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/1.jpg);
+	height: 150vh;
+	background-size: cover;
+	background-position: center;
+}
+	
+.main{
+	max-width: 1500px;
+	margin: auto;
+}
+
+.lobtn{
+	float: right;
+	list-style-type: none;
+	margin-top: -85px;
+	text-decoration: none;
+	color: #000;
+	padding: 15px 30px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+.lgbtn{
+	border: 1px solid #fff;
+	padding: 15px 40px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.lgbtn:hover{
+	box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24), 0 17px 50px 0 rgba(255,255,255,0.19);
+	background-color:#fff;
+	color: #000;
+}
+
+.title h1{
+	background: #2d36569e;
+	padding: 20px 50px;
+	text-align: Center;
+	color: #fff;
+	font-size: 80;
+}
+
+.new {
+	top: 10%;
+	left: 15%;
+	height: 500px;
+	position: relative;
+	border: 1px transparent;
+}
+
+.btn{
+	width: 500px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #3a3b6c94;
+    text-align: center;
+}
+
+.btn:hover{
+	background-color:#fff;
+	color: #000;
+}
+
+
+.footer {
+  padding:40px 0;
+  background-color: black;
+}
+.footer .logo img{
+	float: left;
+	width: 400px;
+	height: auto;
+}
+.footer ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  color: #6a72ff;
+  font-size:20px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer li {
+  padding:0 10px;
+}
+
+.footer ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer ul a:hover {
+  opacity:1;
+}
+
+.footer .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:16px;
+  color: #8a8a8f;
+  margin-bottom:0;
+}
